@@ -37,12 +37,14 @@
           <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
         </div>
       </div>
+
     </header>
 
     <main>
       <div class="l-container">
         {{ block "main" . }}{{ end }}
       </div>
+      
     </main>
 
     <footer class="l-footer">
@@ -57,4 +59,3 @@
 
   </body>
 </html>
-

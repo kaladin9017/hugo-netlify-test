@@ -22,7 +22,6 @@
     {{ if ne (getenv "HUGO_ENV") "DEV" }}
     {{ template "_internal/google_analytics.html" . }}
     {{ end }}
-
     <header class="l-header">
       <div class="l-container">
         <div class="logo">
@@ -33,6 +32,8 @@
 
     <main>
       <div class="l-container">
+        <span id="hello"></span>
+        <span id="world"></span>
         {{ block "main" . }}{{ end }}
       </div>
     </main>
