@@ -1,0 +1,18 @@
+html {
+  background: #999; }
+  html > body {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    background: #EEE;
+    color: #222; }
+
+body span#hello {
+  color: #123ABC; }
+body span#hello {
+  color: #123ABC; }
+body span#world {
+  color: #555; }
+
+/*# sourceMappingURL=style.css.map*/
