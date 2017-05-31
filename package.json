@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "hugo server --config=config/hugo.config.yaml; webpack --config=config/webpack.config.js",
-    "hugo-server": "hugo server --config=config/hugo.config.yaml --destination=public --port=8181",
+    "build": "npm run hugo-server && npm run webpack-watcher",
+    "hugo-server": "hugo --config=config/hugo.config.yaml --destination=public",
     "webpack-server": "webpack-dev-server --config=config/webpack.config.js --port=8282 --watch --debug --verbose --progress --colors",
-    "webpack-watcher": "webpack --config=config/webpack.config.js --watch --debug --verbose --progress --colors",
+    "webpack-watcher": "webpack --config=config/webpack.config.js --debug --verbose --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
