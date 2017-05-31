@@ -41,9 +41,9 @@ taxonomies:
   class: "classes"
 
 params:
-  author: David Pordomingo
-  description: "This is my first Hugo React page"
-  copyright: Apache License v2 - Copyright (c) 2016 David Pordomingo de la Fuente
+  author: Chris
+  description: "Shine Blog test site"
+  copyright: ShineText
   location: ""
   social:
     twitter: "twitter"

@@ -6,7 +6,7 @@
     <description>Recent content in Post on Shine Blog test</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Apache License v2 - Copyright (c) 2016 David Pordomingo de la Fuente</copyright>
+    <copyright>ShineText</copyright>
     <lastBuildDate>Tue, 30 May 2017 15:40:04 -0400</lastBuildDate>
     
 	<atom:link href="//localhost:8181/classes/post/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,17 @@
       <pubDate>Tue, 30 May 2017 15:40:04 -0400</pubDate>
       
       <guid>//localhost:8181/post/first/</guid>
-      <description>Content here</description>
+      <description>first here
+Some words Some words Some words Some words Some words</description>
+    </item>
+    
+    <item>
+      <title>second</title>
+      <link>//localhost:8181/post/second/</link>
+      <pubDate>Tue, 30 May 2017 15:40:04 -0400</pubDate>
+      
+      <guid>//localhost:8181/post/second/</guid>
+      <description>Second here</description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Shine Blog test</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Apache License v2 - Copyright (c) 2016 David Pordomingo de la Fuente</copyright>
+    <copyright>ShineText</copyright>
     
 	<atom:link href="//localhost:8181/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,6 +17,15 @@
       <pubDate>Tue, 30 May 2017 15:40:04 -0400</pubDate>
       
       <guid>//localhost:8181/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stress</title>
+      <link>//localhost:8181/categories/stress/</link>
+      <pubDate>Tue, 30 May 2017 15:40:04 -0400</pubDate>
+      
+      <guid>//localhost:8181/categories/stress/</guid>
       <description></description>
     </item>
     
